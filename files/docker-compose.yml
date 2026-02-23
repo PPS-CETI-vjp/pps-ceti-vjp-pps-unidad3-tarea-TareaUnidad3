@@ -1,0 +1,6 @@
+services:
+  store-app:
+    build: .
+    container_name: store-app
+    ports:
+      - "8888:8888"
